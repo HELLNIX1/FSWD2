@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<img src="GRIET_logo.png" width="100" height="32" onmouseenter="bigImg(this)" onmouseleave="normalImg(this)" border="0" >
+
+<p>The function bigImg() is triggered when the user moves the mouse pointer onto the image.</p>
+<p>The function normalImg() is triggered when the mouse pointer is moved out of the image.</p>
+
+<script>
+function bigImg(x) {
+  x.style.height = "180px";
+  x.style.width = "450px";
+}
+
+function normalImg(x) {
+  x.style.height = "32px";
+  x.style.width = "100px";
+}
+</script>
+
+</body>
+</html>
