@@ -43,6 +43,7 @@ if(num > 0)
 {
     console.log(num);
     alert(1);
+    
 }
 
 // SWITCH
